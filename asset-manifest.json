@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/blockchain/static/css/main.673f46f0.chunk.css",
-    "main.js": "/blockchain/static/js/main.2e4f9cc6.chunk.js",
-    "main.js.map": "/blockchain/static/js/main.2e4f9cc6.chunk.js.map",
+    "main.js": "/blockchain/static/js/main.83a3e75e.chunk.js",
+    "main.js.map": "/blockchain/static/js/main.83a3e75e.chunk.js.map",
     "runtime-main.js": "/blockchain/static/js/runtime-main.4a1ecbdf.js",
     "runtime-main.js.map": "/blockchain/static/js/runtime-main.4a1ecbdf.js.map",
     "static/css/2.1c60cc24.chunk.css": "/blockchain/static/css/2.1c60cc24.chunk.css",
     "static/js/2.7a3b27f1.chunk.js": "/blockchain/static/js/2.7a3b27f1.chunk.js",
     "static/js/2.7a3b27f1.chunk.js.map": "/blockchain/static/js/2.7a3b27f1.chunk.js.map",
     "index.html": "/blockchain/index.html",
-    "precache-manifest.62df6b89902fed69d134535d1f552806.js": "/blockchain/precache-manifest.62df6b89902fed69d134535d1f552806.js",
+    "precache-manifest.a420a3c1daddfd7c23155d08239bea51.js": "/blockchain/precache-manifest.a420a3c1daddfd7c23155d08239bea51.js",
     "service-worker.js": "/blockchain/service-worker.js",
     "static/css/2.1c60cc24.chunk.css.map": "/blockchain/static/css/2.1c60cc24.chunk.css.map",
     "static/css/main.673f46f0.chunk.css.map": "/blockchain/static/css/main.673f46f0.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.1c60cc24.chunk.css",
     "static/js/2.7a3b27f1.chunk.js",
     "static/css/main.673f46f0.chunk.css",
-    "static/js/main.2e4f9cc6.chunk.js"
+    "static/js/main.83a3e75e.chunk.js"
   ]
 }
