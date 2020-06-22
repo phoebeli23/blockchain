@@ -1,38 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 .App {
-  text-align: center;
+  background-color: rgb(252, 252, 251);
+  height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header, footer, .bg-custom {
+  background: rgb(255,246,226);
+  background: radial-gradient(circle, rgb(255, 239, 204) 0%, rgb(214, 254, 255) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.border-custom {
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.no-pad {
+  padding: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-border {
+  border: none;
+  outline: none;
+  height: 2rem;
 }
+
+.blockchain-info {
+  width: 80vw;
+  max-width: 50rem;
+  margin-top: 12rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.5rem;
+}
+
+.blockchain-info-text {
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.rotate:hover
+{
+  -webkit-transition: 0.70s;
+  -ms-transition: 0.70s;
+  transition: 0.70s;
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(-360deg);
+  transform: rotateZ(-360deg);
+}
+
+.difficulty-form {
+  width: 10rem;
+  align-self: center;
+}
+
+
