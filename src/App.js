@@ -28,7 +28,7 @@ class App extends React.Component {
         <footer className="text-center">
           <ButtonGroup className="mt-3">
             <Button variant="secondary" disabled><i className="far fa-heart"></i></Button>
-            <Button href="https://github.com/phoebeli23" target="_blank"><i className="fab fa-github"></i></Button>
+            <Button href="https://github.com/phoebeli23/blockchain" target="_blank"><i className="fab fa-github"></i></Button>
             <Button variant="info" href="https://www.linkedin.com/in/phoebeli503/" target="_blank"><i className="fab fa-linkedin"></i></Button>
           </ButtonGroup>
         </footer>
