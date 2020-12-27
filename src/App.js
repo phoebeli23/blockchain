@@ -1,7 +1,7 @@
 import React from 'react';
-import Blockchain from './components/Blockchain';
-import Subtitle from './components/Subtitle';
-import BlockchainInfo from './components/BlockchainInfo';
+import Blockchain from './components/blockchain/Blockchain';
+import Instructions from './components/Instructions';
+import BonusBlock from './components/BonusBlock';
 
 
 import Container from 'react-bootstrap/Container';
@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import './App.css';
+import './styles/App.css';
 
 
 class App extends React.Component {
@@ -21,9 +21,9 @@ class App extends React.Component {
         <header>
           <h1 className="text-center">Blockchain <i className="fas fa-cube text-info rotate"></i></h1>
         </header>
-        <Subtitle />
+        <Instructions />
         <Blockchain />
-        <BlockchainInfo />
+        <BonusBlock />
 
         <footer className="text-center">
           <ButtonGroup className="mt-3">

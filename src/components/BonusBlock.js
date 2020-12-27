@@ -3,9 +3,9 @@ import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import './Block.css';
+import '../styles/Block.css';
 
-const BlockchainInfo = () => {
+const BonusBlock = () => {
     return (
         <Container fluid className="blockchain-info">
           <Accordion defaultActiveKey="0">
@@ -35,4 +35,4 @@ const BlockchainInfo = () => {
     );
 }
  
-export default BlockchainInfo;
+export default BonusBlock;

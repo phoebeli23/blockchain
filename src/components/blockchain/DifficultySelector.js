@@ -12,7 +12,7 @@ const diff = (props) => {
     );
 }
 
-class Difficulty extends Component {
+class DifficultySelector extends Component {
     constructor(props) {
         super(props);
         this.input = React.createRef(); 
@@ -52,4 +52,4 @@ class Difficulty extends Component {
     }
 }
  
-export default Difficulty;
+export default DifficultySelector;

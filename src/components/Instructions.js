@@ -1,7 +1,7 @@
 import React from 'react';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import "./Subtitle.css"
+import "../styles/Instructions.css"
 
 const blockchain = (props) => {
     return (
@@ -60,9 +60,9 @@ const hash = (props) => {
     );
 }
 
-const Subtitle = () => {
+const Instructions = () => {
     return (
-        <p className="subtitle">
+        <p className="instructions">
             Welcome to my  
             <OverlayTrigger
                 placement="top"
@@ -127,5 +127,5 @@ const Subtitle = () => {
     );
 }
 
-export default Subtitle;
+export default Instructions;
 

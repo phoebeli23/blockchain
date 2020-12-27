@@ -4,7 +4,7 @@ import Link from './Link';
 import Container from 'react-bootstrap/Container';
 import Block from './Block';
 import sha256 from 'crypto-js/sha256';
-import Difficulty from './Difficulty'
+import DifficultySelector from './DifficultySelector'
 
 
 class Blockchain extends React.Component {
@@ -194,7 +194,7 @@ class Blockchain extends React.Component {
 
         return (
             <Container fluid className="d-flex flex-column justify-content-center">
-                <Difficulty onChange={this.difficultyChange} />
+                <DifficultySelector onChange={this.difficultyChange} />
                 {chain}
                 <AddBlock
                     className="align-self-center"

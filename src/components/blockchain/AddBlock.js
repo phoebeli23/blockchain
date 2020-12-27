@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
-import "./Block.css"
+import '../../styles/Block.css';
 
 const AddBlock = ({ data, onInputChange, onAddClick }) => {
     return (
